@@ -1,8 +1,7 @@
-import java.util.Arrays;
 import java.util.Random;
 public class ArrayFillerWhile{
     public static void main(String[] args){
-        int[] array= new int[10];
+        int[] array= new int[6];
         int j=0;
         Random rr=new Random();
         while(j<array.length){
@@ -13,13 +12,13 @@ public class ArrayFillerWhile{
             System.out.println(array[i]);
         }
         boolean scambio;
-        do{
+        do{//bubbleSort
            scambio=false; 
             for(int i=0; i<array.length-1; i++){
                 if(array[i]>array[i+1]){
                     scambio=true;
                     int appoggio=array[i];
-                    array[i]=array[i+1];
+                    array[i]=array[i+1];  //N2 = performance scadente
                     array[i+1]=appoggio;
                 }
             }
@@ -29,5 +28,6 @@ public class ArrayFillerWhile{
             System.out.println(array[i]);
         }
     }
-}
+}//con ricerca binaria, è più performante (logN)
+
 
