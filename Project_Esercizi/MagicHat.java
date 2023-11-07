@@ -50,7 +50,7 @@ public class MagicHat {
 
         for(int i = 0; i < (students.length - REST); i++){
             System.out.printf("lo studende %s finirà in...",students[i]);
-            Thread.sleep(3000);
+            //Thread.sleep(3000);
             String house = null;
             //boolean assigned = false;
             do{
@@ -102,7 +102,7 @@ public class MagicHat {
         for(int i = (students.length - REST); i < students.length; i++){
             destiny = hat.nextInt(NUM_HOUSES);
             System.out.printf("lo studente %s finirà in...%n",students[i]);
-            Thread.sleep(3000);
+            //Thread.sleep(3000);
             String house = null;
             //boolean assigned = false;
             do{
@@ -173,5 +173,6 @@ public class MagicHat {
         for(int i = 0; i < iR ; i++){
             System.out.println(ravenClaw[i]);
         }
+     
     }
 }
