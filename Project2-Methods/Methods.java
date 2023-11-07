@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Methods{
     public static void main(String[] args){
         multiply(0); //System.out.println(4*3);
@@ -22,12 +24,13 @@ public class Methods{
     }
     public static int[] quadrato(){
         System.out.println("scrivi due interi");
+        Scanner sc=new Scanner(System.in);
         int m=sc.nextInt();
         int z=sc.nextInt();
         int[] numeri= new int[10];
         //soluzione? numeri={multiply(m),multiply(z)}; 
-        int[0]=multiply(m); 
-        int[1]=multiply(z);
+        numeri[0]=multiply(m);
+        numeri[1]=multiply(z);
         return numeri;
     }
     

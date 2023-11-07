@@ -1,3 +1,5 @@
+package Appunti;
+
 import java.util.Random;
 public class ArrayFillerWhile{
     public static void main(String[] args){
