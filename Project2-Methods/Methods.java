@@ -1,7 +1,7 @@
 public class Methods{
     public static void main(String[] args){
-        multiply(); //System.out.println(4*3);
-        int num0= multiply();
+        multiply(0); //System.out.println(4*3);
+        int num0= multiply(0);
         quadrato();
         multiply(30); // () = Argomento, quando si richiama una funzione 
         //possiamo richiamare funzioni anche se non ritornano nulla

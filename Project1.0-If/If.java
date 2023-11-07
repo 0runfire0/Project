@@ -11,10 +11,10 @@ public class If{
         double peso = 100;
         if (altezza>=180 && peso>=100){
             System.out.println("sei alto ma un poò grassottello");
-            else if(altezza<180 && peso<100){
+        }else if(altezza<180 && peso<100){
                 System.out.println("sei nella media");
 
-            }
+        }
     
     }
 }

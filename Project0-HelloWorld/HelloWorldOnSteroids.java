@@ -21,7 +21,7 @@ public class HelloWorldOnSteroids{
         //System.out.println(String.valueOF(z)+" "+String.valueOF(w));
         System.out.println(z+" "+w);
         boolean h= true;
-        byte b1=8;     //8 bit signed
+        byte b1=8;     //8-bit signed
         short s1= 200; //16 bit signed
         int i1= 1_000_000_000; //32 bit signed
         long l1=10_000_000_000L; //64 bit signed
@@ -34,5 +34,3 @@ public class HelloWorldOnSteroids{
     
 
 }
-HelloWorldOnSteroids o = new HelloWorldOnSteroids();
-HelloWorldOnSteroids.MY_PARAM;
