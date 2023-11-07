@@ -10,6 +10,7 @@ public class GiornoDiOggi{
         return giorno;
     }
     public static void chiediCosaFareOggi(){
-        LocalDate oggi= LocalDate.now
+        LocalDate oggi= LocalDate.now;
+
     }
 }

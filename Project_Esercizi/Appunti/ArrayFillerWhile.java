@@ -5,7 +5,7 @@ public class ArrayFillerWhile{
         int j=0;
         Random rr=new Random();
         while(j<array.length){
-            array[j]=rr.nextInt(100);
+            array[j]=rr.nextInt(100000);
             j++;
         }
         for(int i=0; i<array.length; i++){
@@ -13,7 +13,7 @@ public class ArrayFillerWhile{
         }
         boolean scambio;
         do{//bubbleSort
-           scambio=false; 
+           scambio=false; //flag (attivazione)
             for(int i=0; i<array.length-1; i++){
                 if(array[i]>array[i+1]){
                     scambio=true;

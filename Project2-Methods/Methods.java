@@ -1,7 +1,7 @@
 public class Methods{
     public static void main(String[] args){
         multiply(); //System.out.println(4*3);
-        int numero= multiply();
+        int num0= multiply();
         quadrato();
         multiply(30); // () = Argomento, quando si richiama una funzione 
         //possiamo richiamare funzioni anche se non ritornano nulla
@@ -16,11 +16,19 @@ public class Methods{
     //void = che non fa ritornare i dati
     //usiamo nomi di verbi per le funzioni, in camelCase
     //il nome dev'essere esplicativo dello scopo della funzione
+    
     public static int multiply(int n){// () = parametro in input 
         return 4*3;//una funzione ritornerà sempre una cosa sola
     }
-    public void quadrato(){
-        int num1=multiply();
-        int num2=multiply();
+    public static int[] quadrato(){
+        System.out.println("scrivi due interi");
+        int m=sc.nextInt();
+        int z=sc.nextInt();
+        int[] numeri= new int[10];
+        //soluzione? numeri={multiply(m),multiply(z)}; 
+        int[0]=multiply(m); 
+        int[1]=multiply(z);
+        return numeri;
     }
+    
 }
